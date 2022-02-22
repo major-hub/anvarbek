@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-14 10:27+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\ANVARBEK\settings.py:128
+msgid "Russian"
+msgstr ""
+
+#: .\ANVARBEK\settings.py:129
+msgid "Uzbek"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_about.html:12
+msgid "Bizning jamoa"
+msgstr "Наша команда"
+
+#: .\anvarbek_app\templates\components\_about.html:40
+msgid "ANVARBEK ga xush kelibsiz"
+msgstr "Добро пожаловать в Анварбек"
+
+#: .\anvarbek_app\templates\components\_about.html:43
+#, fuzzy
+#| msgid ""
+#| "Anvarbek mebel olami - bu sizning uyingizda qulaylik yaratishga "
+#| "intiladigan va sizning uyingizda qulaylikni ta'minlash uchun barcha ishni "
+#| "qiladigan kompaniya."
+msgid ""
+"Anvarbek mebel olami - bu sizning uyingizda qulaylik yaratishga intiladigan "
+"va sizning uyingizda qulaylikni ta'minlash uchun barcha ishni qiladigan "
+"kompaniya."
+msgstr ""
+"Мебельный мир «Анварбек» — компания, которая стремится создать уют в вашем "
+"доме и делает все, чтобы обеспечить комфорт в вашем доме."
+
+#: .\anvarbek_app\templates\components\_about.html:48
+#, fuzzy
+#| msgid ""
+#| "'Anvarbek' mebel tarmog'i - bu narx va sifatning eng yaxshi uyg'unligini "
+#| "o'zida mujassam etgan mebellar to'plami. Siz hamyonbop narxlarda benuqson "
+#| "sifatli mebellarni topishingiz mumkin. Bizning ko'rgazma zallarimiz "
+#| "quyidagilarni o'z ichiga oladi:"
+msgid ""
+"Anvarbek mebel tarmog'i - bu narx va sifatning eng yaxshi uyg'unligini "
+"o'zida mujassam etgan mebellar to'plami. Siz hamyonbop narxlarda benuqson "
+"sifatli mebellarni topishingiz mumkin. Bizning ko'rgazma zallarimiz "
+"quyidagilarni o'z ichiga oladi:"
+msgstr ""
+"Мебельная сеть «Анварбек»   – это коллекция мебели, сочетающая в себе лучшее "
+"сочетание цены и качества. Вы можете найти мебель безупречного качества по "
+"доступным ценам. Наши выставочные залы включают в себя:"
+
+#: .\anvarbek_app\templates\components\_about.html:51
+msgid "Mehmonxona"
+msgstr "Гостиные"
+
+#: .\anvarbek_app\templates\components\_about.html:52
+msgid "Yotoqxona"
+msgstr "Спальная комната"
+
+#: .\anvarbek_app\templates\components\_about.html:53
+msgid "Koridorlar"
+msgstr "Прихожие"
+
+#: .\anvarbek_app\templates\components\_about.html:54
+msgid "Bolalar xonasi"
+msgstr "Детская комната"
+
+#: .\anvarbek_app\templates\components\_about.html:55
+msgid "Yumshoq mebellar"
+msgstr "Мягкая мебель"
+
+#: .\anvarbek_app\templates\components\_about.html:59
+msgid "Tekin yetkazib berish"
+msgstr "бесплатная доставка"
+
+#: .\anvarbek_app\templates\components\_about.html:60
+#, fuzzy
+msgid "Oson to'lov usullari"
+msgstr "легкие платежи"
+
+#: .\anvarbek_app\templates\components\_about.html:61
+msgid "24/7 xizmat"
+msgstr "Круглосуточная служба"
+
+#: .\anvarbek_app\templates\components\_about.html:105
+msgid "Bizning jamoamiz har doim yordam berishga tayyor"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_contacts.html:13
+#: .\anvarbek_app\templates\components\_contacts.html:96
+msgid "Biz bilan bog'laning"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_contacts.html:31
+msgid "Bog'lanish usullari"
+msgstr "Способы подключения"
+
+#: .\anvarbek_app\templates\components\_contacts.html:34
+msgid "Manzil"
+msgstr "Адрес"
+
+#: .\anvarbek_app\templates\components\_contacts.html:37
+msgid "Farg'ona viloyati Bag'dod tumani"
+msgstr "Багдадский район Ферганской области"
+
+#: .\anvarbek_app\templates\components\_contacts.html:38
+msgid "Cho'rindi qishlog'i Ipak yo'li ko'chasi 86-uy."
+msgstr "Село Чоринды, улица Ипак Йули, 86."
+
+#: .\anvarbek_app\templates\components\_contacts.html:39
+msgid "Mo'ljal Ibn sino medical clinikasi ro'parasida"
+msgstr "Пункт назначения находится перед медицинской клиникой Ибн Сина."
+
+#: .\anvarbek_app\templates\components\_contacts.html:53
+msgid "Email"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_contacts.html:60
+msgid "Bizni kuzatib boring"
+msgstr "Подписывайтесь на нас"
+
+#: .\anvarbek_app\templates\components\_contacts.html:102
+msgid "Ismingiz*"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_contacts.html:105
+msgid "Email manzil*"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_contacts.html:108
+msgid "Murojaat mavzusi*"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_contacts.html:111
+msgid "Sizning xabaringiz*"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_contacts.html:113
+msgid "Yuborish"
+msgstr "Отправлять"
+
+#: .\anvarbek_app\templates\components\_footer.html:13
+#: .\anvarbek_app\templates\components\_footer.html:28
+#: .\anvarbek_app\templates\components\_nav.html:27
+msgid "Biz haqimizda"
+msgstr "о нас"
+
+#: .\anvarbek_app\templates\components\_footer.html:14
+#, fuzzy
+#| msgid ""
+#| "Anvarbek mebel olami - bu sizning uyingizda qulaylik yaratishga "
+#| "intiladigan va sizning uyingizda qulaylikni ta'minlash uchun barcha ishni "
+#| "qiladigan kompaniya."
+msgid ""
+"Anvarbek.uz - bu sizning uyingizda qulaylik yaratishga intiluvchi va "
+"shinamlikni ta'minlovchi tashkilot."
+msgstr ""
+"Мебельный мир «Анварбек» — компания, которая стремится создать уют в вашем "
+"доме и делает все, чтобы обеспечить комфорт в вашем доме."
+
+#: .\anvarbek_app\templates\components\_footer.html:24
+msgid "Ma'lumot"
+msgstr "Информация"
+
+#: .\anvarbek_app\templates\components\_footer.html:29
+msgid "Yetkazib berish haqida ma'lumot"
+msgstr "Информация о доставке"
+
+#: .\anvarbek_app\templates\components\_footer.html:40
+msgid "Bizning ijtimoiy tarmoqlar"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_nav.html:26
+msgid "Bosh sahifa"
+msgstr "Главная страница"
+
+#: .\anvarbek_app\templates\components\_nav.html:28
+msgid "Aloqa"
+msgstr "контакты"
+
+#: .\anvarbek_app\templates\components\_nav.html:29
+#: .\anvarbek_app\templates\components\index.html:44
+msgid "Bizning maxsulotlar"
+msgstr "Наши продукты"
+
+#: .\anvarbek_app\templates\components\_nav.html:30
+#: .\anvarbek_app\templates\components\index.html:110
+msgid "Yangi kelgan mebellar"
+msgstr "Новая мебель"
+
+#: .\anvarbek_app\templates\components\_nav.html:90
+msgid "My account"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_nav.html:91
+msgid "Checkout"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_nav.html:92
+msgid "Sign in"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\index.html:46
+msgid ""
+"Bizning maxsulotlar Farg'ona viloyati Bog'dod tumanida ishlab chiqariladi va "
+"narx bo'yicha eng zo'rlari"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\index.html:47
+msgid "Anvarbek Mebellar uyida"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\index.html:93
+msgid "Afsuski hozircha bu turdagi maxsulotimiz yo'q"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\index.html:127
+msgid "Yangi"
+msgstr "Новый"
+
+#: .\anvarbek_app\templates\components\index.html:139
+#: .\anvarbek_app\templates\components\product_detail.html:15
+msgid "so'm"
+msgstr "сумма"
+
+#: .\anvarbek_app\templates\components\index.html:165
+msgid "Mijozlar biz haqimizda"
+msgstr "Клиенты о нас"
+
+#: .\anvarbek_app\templates\components\product_detail.html:15
+msgid "Narxi"
+msgstr "цена"

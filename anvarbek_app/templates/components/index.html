@@ -1,0 +1,238 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+{% load i18n %}
+
+<div class="section ">
+
+    <div class="hero-slider swiper-container slider-nav-style-1 slider-dot-style-1 dot-color-white">
+        <div class="swiper-wrapper">
+            {% for product in nav %}
+            <div class="hero-slide-item slider-height-2 swiper-slide d-flex">
+                <div class="hero-bg-image">
+                    <img src="{{ product.image.url }}" alt="">
+                </div>
+                <div class="container align-self-center">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 offset-2 align-self-center m-auto">
+                            <div class="hero-slide-content hero-slide-content-2 slider-animated-1 text-center">
+                                <span class="category">{{ product.title }}</span>
+                                <h2 class="title-1">{{ product.title }}</h2>
+                                <p class="w-100">{{ product.desc }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <div class="swiper-buttons">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</div>
+
+<div id="our_products" class="section product-tab-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center" data-aos="fade-up">
+                <div class="section-title mb-0">
+                    <h2 class="title">{% trans "Bizning maxsulotlar"%}</h2>
+                    <p class="sub-title mb-50px">
+                        {% trans "Bizning maxsulotlar Farg'ona viloyati Bog'dod tumanida ishlab chiqariladi va narx bo'yicha eng zo'rlari" %}
+                        <b> {% trans "Anvarbek Mebellar uyida" %}</b>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Tab Start -->
+            <div class="col-md-12 text-center mb-40px" data-aos="fade-up" data-aos-delay="200">
+                <ul class="product-tab-nav nav justify-content-center">
+                    {% for key, value in categories.items %}
+                    <li class="nav-item">
+                        <a class="nav-link {% if key == 'oshxona' %} active {% endif %}" data-bs-toggle="tab"
+                            href="#tab-product-{{ key }}">{{ key }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- Tab End -->
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="tab-content">
+
+                    {% for key, value in categories.items %}
+
+                    <div class="tab-pane fade {% if key == 'oshxona' %} show active {% endif %}"
+                        id="tab-product-{{ key }}">
+                        <div class="row">
+                            {% for val in value %}
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up"
+                                data-aos-delay="200">
+
+                                <div class="product">
+                                    <div class="thumb">
+                                        <a href="{% url 'product_detail' pk=val.pk %}" class="image">
+                                            <img src="{{ val.image.url }}" alt="Product" />
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h5 class="title"><a href="shop-left-sidebar.html">{{ val.title }}</a></h5>
+                                        <span class="price">
+                                            <span class="new">{{ val.price }}</span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            {% empty %} <strong class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px text-center w-100">{% trans "Afsuski hozircha bu turdagi maxsulotimiz yo'q" %} ☹</strong>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="new_furniture" class="section pb-100px">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12" data-aos="fade-up">
+                <div class="section-title text-center mb-11">
+                    <h2 class="title">{% trans "Yangi kelgan mebellar"%}</h2>
+                    <p class="sub-title">Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="new-product-slider swiper-container slider-nav-style-1" data-aos="fade-up" data-aos-delay="200">
+            <div class="new-product-wrapper swiper-wrapper">
+                {% for product in new %}
+                <div class="new-product-item swiper-slide">
+                    <div class="product">
+                        <div class="thumb">
+                            <a href="{% url 'product_detail' pk=product.pk %}" class="image">
+                                <img width="100%" height="100%" src="{{ product.image.url }}" alt="Product" />
+                            </a>
+                            <span class="badges">
+                                <span class="new">{% trans "Yangi"%}</span>
+                            </span>
+                            <div class="actions">
+
+                            </div>
+
+                        </div>
+                        <div class="content">
+                            <h5 class="title"><a href="shop-left-sidebar.html">
+                                    {{ product.title }} </a>
+                            </h5>
+                            <span class="price">
+                                <span class="new">{{ product.price }} {% trans "so'm" %}</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="swiper-buttons">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+
+
+        
+    </div>
+</div>
+
+
+<div id="new_furniture" class="section pb-100px">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12" data-aos="fade-up">
+                <div class="section-title text-center mb-11">
+                    <h2 class="title">{% trans "Mijozlar biz haqimizda"%}</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper comments" data-aos="fade-up" data-aos-delay="200" data-loop="true">
+            <div class="new-product-wrapper swiper-wrapper">
+
+                <div class="new-product-item swiper-slide">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card_top d-flex">
+                                <figure >
+                                    <img src="{% static 'assets/images/team/Doniyor.jpg' %}" alt="">
+                                </figure>
+                                <div class="card_top_right">
+                                    <h5><b class="d-block">Holiqov Doniyor</b></h5>
+                                    <i class="ion-star " aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                          
+                          <p class="card-content">{% trans "Anvarbek mebellar uyi bilan bizning ishimiz juda ham yengillashdi. Birinchi o'rinda sifatli mahsulotlari va o'zgacha dizayindagi mebellari bizni o'ziga tortdi. Anvarbek mebellar uyiga o'z minnatdorchiligimizni bildiramiz va sizlarni ham Anvarbek mebellar uyi bilan hamkorlik qilishingizni taklif qilamiz."%}</p>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="new-product-item swiper-slide">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card_top d-flex">
+                                <figure >
+                                    <img src="{% static 'assets/images/team/Doniyor.jpg' %}" alt="">
+                                </figure>
+                                <div class="card_top_right">
+                                    <h5><b class="d-block">Holiqov Doniyor</b></h5>
+                                    <i class="ion-star " aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                          
+                          <p class="card-content">{% trans "Anvarbek mebellar uyi bilan bizning ishimiz juda ham yengillashdi. Birinchi o'rinda sifatli mahsulotlari va o'zgacha dizayindagi mebellari bizni o'ziga tortdi. Anvarbek mebellar uyiga o'z minnatdorchiligimizni bildiramiz va sizlarni ham Anvarbek mebellar uyi bilan hamkorlik qilishingizni taklif qilamiz."%}</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="new-product-item swiper-slide">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card_top d-flex">
+                                <figure >
+                                    <img src="{% static 'assets/images/team/Doniyor.jpg' %}" width="50" alt="">
+                                </figure>
+                                <div class="card_top_right">
+                                    <h5><b class="d-block">Holiqov Doniyor</b></h5>
+                                    <i class="ion-star " aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i><i class="ion-star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                          
+                          <p class="card-content">{% trans "Anvarbek mebellar uyi bilan bizning ishimiz juda ham yengillashdi. Birinchi o'rinda sifatli mahsulotlari va o'zgacha dizayindagi mebellari bizni o'ziga tortdi. Anvarbek mebellar uyiga o'z minnatdorchiligimizni bildiramiz va sizlarni ham Anvarbek mebellar uyi bilan hamkorlik qilishingizni taklif qilamiz."%}</p>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-buttons">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>        
+    </div>
+</div>
+
+{% endblock %}

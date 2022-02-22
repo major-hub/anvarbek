@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load i18n %}
+
+<div class="offcanvas-overlay"></div>
+<!-- breadcrumb-area start -->
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="row breadcrumb_box  align-items-center justify-content-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-center text-md-start">
+                        <h2 class="breadcrumb-title text-center">{% trans "Biz bilan bog'laning"%}</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- breadcrumb-area end -->
+
+<!-- contact area start -->
+<div class="contact-area pb-100px pt-100px">
+    <div class="container">
+        
+        <div class="custom-row-2 row">
+            <div class="col-lg-6 col-md-6 mb-lm-60px col-sm-12 col-xs-12 w-sm-100">
+                <div class="contact-info-wrap">
+                    <h2 class="title" data-aos="fade-up" data-aos-delay="200">{% trans "Bog'lanish usullari"%}</h2>
+                    <div class="single-contact-info" data-aos="fade-up" data-aos-delay="200">
+                        <div class="contact-info-inner">
+                            <span class="sub-title">{% trans "Manzil"%}:</span>
+                        </div>
+                        <div class="contact-info-dec">
+                            <p>{% trans "Farg'ona viloyati Bag'dod tumani"%}</p>
+                            <p>{% trans "Cho'rindi qishlog'i Ipak yo'li ko'chasi 86-uy."%}</p>
+                            <p>{% trans "Mo'ljal Ibn sino medical clinikasi ro'parasida"%}</p>
+                        </div>
+                    </div>
+                    <div class="single-contact-info" data-aos="fade-up" data-aos-delay="200">
+                        <div class="contact-info-inner">
+                            <span class="sub-title">Tel:</span>
+                        </div>
+                        <div class="contact-info-dec">
+                            <p><a href="tel:+998 91 6541457">+998 91 6541457</a></p>
+                            {% comment %} <p><a href="tel:+012345678102">+998 91 6541457</a></p> {% endcomment %}
+                        </div>
+                    </div>
+                    <div class="single-contact-info" data-aos="fade-up" data-aos-delay="200">
+                        <div class="contact-info-inner">
+                            <span class="sub-title">{% trans "Email"%}:</span>
+                        </div>
+                        <div class="contact-info-dec">
+                            <p><a href="mailto: https://anvarbek-ktxf.mail.ru">anvarbek-ktxf.mail.ru</a></p>
+                        </div>
+                    </div>
+                    <!-- <div class="contact-social">
+                        <h3 class="title" data-aos="fade-up" data-aos-delay="200">{% trans "Bizni kuzatib boring"%}</h3>
+                        <div class="social-info" data-aos="fade-up" data-aos-delay="200">
+                            <ul class="d-flex justify-content-center">
+                                <li>
+                                    <a class="" title="Facebook" href="https://facebook.com/anvarbek_uz"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a class="" title="Telegram" href="https://t.me/anvarbek_uz"><i
+                                            class="fab fa-telegram-plane"></i></a>
+                                </li>
+                                <li>
+                                    <a class="" title="Instagram" href="https://instagram.com/anvarbek_uz"><i
+                                            class="fab fa-instagram"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div> -->
+                <div class="contact-map mt-15px">
+                    <!-- <div id="mapid" data-aos="fade-up" data-aos-delay="200">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"> -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10212.426321988274!2d71.17371791380174!3d40.44931862838278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f6bebc9dd6fa364!2zNDDCsDI3JzA0LjgiTiA3McKwMTAnMzYuNCJF!5e0!3m2!1sru!2s!4v1641966150523!5m2!1sru!2s"
+                                        width="100%" height="200" style="border:0;" allowfullscreen="true" loading="lazy"
+                                        ></iframe>
+
+                            <!-- </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="contact-form">
+                    <div class="contact-title mb-30">
+                        <h2 class="title" data-aos="fade-up" data-aos-delay="200">{% trans "Biz bilan bog'laning"%}</h2>
+                    </div>
+                    <form class="contact-form-style" id=""
+                          action="#" method="">
+                        <div class="row">
+                            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                                <input name="name" placeholder="{% trans 'Ismingiz*'%}" type="text"/>
+                            </div>
+                            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                                <input name="email" placeholder="{% trans 'Email manzil*' %}" type="email"/>
+                            </div>
+                            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+                                <input name="subject" placeholder="{%trans 'Murojaat mavzusi*' %}" type="text"/>
+                            </div>
+                            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+                                <textarea name="message" placeholder="{% trans 'Sizning xabaringiz*' %}"></textarea>
+                                <button class="btn btn-primary btn-hover-dark mt-4" data-aos=""
+                                        data-aos-delay="200" type="submit">{% trans "Yuborish"%}
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="form-messege"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

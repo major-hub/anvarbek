@@ -1,0 +1,82 @@
+
+{% load static %}
+{% load i18n %}
+
+<div class="footer-area">
+    <div class="footer-container">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <!-- Start single blog -->
+                    <div class="col-md-6 col-lg-4 mb-md-30px mb-lm-30px" data-aos="fade-up" data-aos-delay="200">
+                        <div class="single-wedge">
+                            <h4 class="footer-herading">{% trans "Biz haqimizda" %}</h4>
+                            <p class="about-text">{% trans "Anvarbek.uz - bu sizning uyingizda qulaylik yaratishga intiluvchi va shinamlikni ta'minlovchi tashkilot." %}
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <!-- End single blog -->
+                    <!-- Start single blog -->
+                    <div class="col-md-6 col-sm-6 col-lg-4 mb-md-30px mb-lm-30px" data-aos="fade-up"
+                         data-aos-delay="400">
+                        <div class="single-wedge">
+                            <h4 class="footer-herading">{% trans "Ma'lumot"%}</h4>
+                            <div class="footer-links">
+                                <div class="footer-row">
+                                    <ul class="align-items-center">
+                                        <li class="li"><a class="single-link" href="{% url 'about' %}">{% trans "Biz haqimizda" %}</a></li>
+                                        <li class="li"><a class="single-link" href="{% url 'home' %}">{% trans "Yetkazib berish haqida ma'lumot" %}</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="800">
+                        <div class="our_social_network">
+                            <h3 class="social_network_title text-white">
+                                {% trans "Bizning ijtimoiy tarmoqlar"%}
+                            </h3>
+                            <ul class="link-follow">
+                                <li class="li">
+
+                                    <a class="" title="Telegram" href="https://t.me/anvarbek_uz"><i class="fab fa-telegram-plane"></i></a>
+                                </li>
+                                <li class="li">
+                                    <a class="" title="Facebook" href="https://facebook.com/anvarbek_uz"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="li">
+                                    <a class="" title="Instagram" href="https://instagram.com/anvarbek_uz"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="li">
+                                    <a class="" title="Mail" href="mailto: https://anvarbek-ktxf.mail.ru"><i class="far fa-envelope"></i></a>
+                                </li>
+
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <!-- End single blog -->
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row flex-sm-row-reverse">
+                    <div class="col-md-6 text-end">
+                        <div class="payment-link">
+                            <img src="{% static 'assets/images/icons/payment.png' %}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-start">
+                        <p class="copy-text"> © 2022 <strong>ANVARBEK</strong> Made With <i class="ion-heart" aria-hidden="true"></i>
+                            By <a class="company-name" href="www.iFraganus.uz">
+                            <strong> IFRAGANUS</strong></a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

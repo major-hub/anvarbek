@@ -1,0 +1,118 @@
+{% load static %}
+{% load i18n %}
+<!-- Header Area start  -->
+<div class="header section">
+    <!-- Header Top Message Start -->
+    <div class="header-top section-fluid bg-white sticky-nav d-none d-lg-block">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Header Top Message Start -->
+                <div class="col-md-2 text-center text-lg-start">
+                    <div class="header-top-massege">
+                        <p> <img height="50px" src="{% static 'assets/images/logo/logo.png' %}" alt="Site Logo" />
+                            ANVARBEK.UZ</p>
+                    </div>
+                </div>
+                <!-- Header Top Message End -->
+                <!-- Header Top Language Currency -->
+
+                {% comment %} <div class="bg-gray d-none d-lg-block sticky-nav">
+                    <div class="container position-relative">
+                        <div class="row"> {% endcomment %}
+                            <div class="col-md-8 align-self-center">
+                                <div class="main-menu">
+                                    <ul>
+                                        <li><a href="{% url 'home' %}">{% trans "Bosh sahifa" %}</a></li>
+                                        <li><a href="{% url 'about' %}">{% trans "Biz haqimizda" %}</a></li>
+                                        <li><a href="{% url 'contacts' %}">{% trans "Aloqa" %}</a></li>
+                                        <li><a href="{% url 'home' %}#our_products">{% trans "Bizning maxsulotlar" %}</a></li>
+                                        <li><a href="{% url 'home' %}#new_furniture">{% trans "Yangi kelgan mebellar" %}</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            {% comment %}
+                        </div>
+                    </div>
+                </div> {% endcomment %}
+
+                <div class="col-md-2 d-none d-lg-block">
+                    <div class="header-top-set-lan-curr d-flex justify-content-end">
+
+                        <div class="header-top-curr dropdown">
+                            <button class="dropdown-toggle" data-bs-toggle="dropdown">Til / Язык<i
+                                    class="ion-ios-arrow-down"></i></button>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li><a class="dropdown-item" href="/ru{{ request.path|slice:'3:' }}">Русский</a></li>
+                                <li><a class="dropdown-item" href="/uz{{ request.path|slice:'3:' }}">O'zbek</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Header Top Language Currency -->
+            </div>
+        </div>
+    </div>
+
+    <div class="header-bottom d-lg-none sticky-nav bg-white">
+        <div class="container position-relative">
+            <div class="row align-self-center">
+                <!-- Header Logo Start -->
+                <div class="col-auto align-self-center">
+                    <div class="header-logo">
+                        <a href="{% url 'about' %}">
+                            <img height="100" src="{% static 'assets/images/logo/logo.png' %}" alt="Site Logo" />
+                        </a>
+                    </div>
+                </div>
+                <!-- Header Logo End -->
+
+                <!-- Header Action Start -->
+                <div class="col align-self-center">
+                    <div class="header-actions">
+                        <div class="header_account_list">
+                            <a href="javascript:void(0)" class="header-action-btn search-btn"><i
+                                    class="icon-magnifier"></i></a>
+                            <div class="dropdown_search">
+                                <form class="action-form" action="#">
+                                    <input class="form-control" placeholder="Enter your search key" type="text">
+                                    <button class="submit" type="submit"><i class="icon-magnifier"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Single Wedge Start -->
+                        <div class="header-bottom-set dropdown">
+                            <button class="dropdown-toggle header-action-btn" data-bs-toggle="dropdown"><i
+                                    class="icon-user"></i></button>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li><a class="dropdown-item" href="my-account.html">{% trans "My account" %}</a></li>
+                                <li><a class="dropdown-item" href="checkout.html">{% trans "Checkout" %}%}</a></li>
+                                <li><a class="dropdown-item" href="login.html">{% trans "Sign in" %}</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Header Action End -->
+            </div>
+        </div>
+    </div>
+
+    {% comment %} <div class="bg-gray d-none d-lg-block sticky-nav">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-md-12 align-self-center">
+                    <div class="main-menu manu-color-white">
+                        <ul>
+                            <li><a href="{% url 'home' %}">{% trans "home" %}</a></li>
+                            <li><a href="{% url 'about' %}">{% trans "about" %}</a></li>
+                            <li><a href="{% url 'contacts' %}">{% trans "contacts" %}</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> {% endcomment %}
+    <!-- Main Menu End -->
+</div>
+<!-- Header Area End  -->

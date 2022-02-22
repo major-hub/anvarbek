@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-14 10:26+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\ANVARBEK\settings.py:128
+msgid "Russian"
+msgstr ""
+
+#: .\ANVARBEK\settings.py:129
+msgid "Uzbek"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_about.html:12
+msgid "Bizning jamoa"
+msgstr "Bizning jamoa"
+
+#: .\anvarbek_app\templates\components\_about.html:40
+msgid "ANVARBEK ga xush kelibsiz"
+msgstr "ANVARBEK ga xush kelibsiz"
+
+#: .\anvarbek_app\templates\components\_about.html:43
+#, fuzzy
+msgid ""
+"Anvarbek mebel olami - bu sizning uyingizda qulaylik yaratishga intiladigan "
+"va sizning uyingizda qulaylikni ta'minlash uchun barcha ishni qiladigan "
+"kompaniya."
+msgstr ""
+"Anvarbek mebel olami - bu sizning uyingizda qulaylik yaratishga intiladigan "
+"va sizning uyingizda qulaylikni ta'minlash uchun barcha ishni qiladigan "
+"kompaniya."
+
+#: .\anvarbek_app\templates\components\_about.html:48
+msgid ""
+"Anvarbek mebel tarmog'i - bu narx va sifatning eng yaxshi uyg'unligini "
+"o'zida mujassam etgan mebellar to'plami. Siz hamyonbop narxlarda benuqson "
+"sifatli mebellarni topishingiz mumkin. Bizning ko'rgazma zallarimiz "
+"quyidagilarni o'z ichiga oladi:"
+msgstr ""
+"Anvarbek mebel tarmog'i - bu narx va sifatning eng yaxshi uyg'unligini "
+"o'zida mujassam etgan mebellar to'plami. Siz hamyonbop narxlarda benuqson "
+"sifatli mebellarni topishingiz mumkin. Bizning ko'rgazma zallarimiz "
+"quyidagilarni o'z ichiga oladi:"
+
+#: .\anvarbek_app\templates\components\_about.html:51
+msgid "Mehmonxona"
+msgstr "Mehmonxona"
+
+#: .\anvarbek_app\templates\components\_about.html:52
+msgid "Yotoqxona"
+msgstr "Yotoqxona"
+
+#: .\anvarbek_app\templates\components\_about.html:53
+msgid "Koridorlar"
+msgstr "Koridorlar"
+
+#: .\anvarbek_app\templates\components\_about.html:54
+msgid "Bolalar xonasi"
+msgstr "Bolalar xonasi"
+
+#: .\anvarbek_app\templates\components\_about.html:55
+msgid "Yumshoq mebellar"
+msgstr "Yumshoq mebellar"
+
+#: .\anvarbek_app\templates\components\_about.html:59
+msgid "Tekin yetkazib berish"
+msgstr "Tekin yetkazib berish"
+
+#: .\anvarbek_app\templates\components\_about.html:60
+msgid "Oson to'lov usullari"
+msgstr "Oson to'lov usullari"
+
+#: .\anvarbek_app\templates\components\_about.html:61
+msgid "24/7 xizmat"
+msgstr "24/7 xizmat"
+
+#: .\anvarbek_app\templates\components\_about.html:105
+msgid "Bizning jamoamiz har doim yordam berishga tayyor"
+msgstr "Bizning jamoamiz har doim yordam berishga tayyor"
+
+#: .\anvarbek_app\templates\components\_contacts.html:13
+#: .\anvarbek_app\templates\components\_contacts.html:96
+msgid "Biz bilan bog'laning"
+msgstr "Biz bilan bog'laning"
+
+#: .\anvarbek_app\templates\components\_contacts.html:31
+msgid "Bog'lanish usullari"
+msgstr "Bog'lanish usullari"
+
+#: .\anvarbek_app\templates\components\_contacts.html:34
+msgid "Manzil"
+msgstr "Manzil"
+
+#: .\anvarbek_app\templates\components\_contacts.html:37
+msgid "Farg'ona viloyati Bag'dod tumani"
+msgstr "Farg'ona viloyati Bag'dod tumani"
+
+#: .\anvarbek_app\templates\components\_contacts.html:38
+msgid "Cho'rindi qishlog'i Ipak yo'li ko'chasi 86-uy."
+msgstr "Cho'rindi qishlog'i Ipak yo'li ko'chasi 86-uy."
+
+#: .\anvarbek_app\templates\components\_contacts.html:39
+msgid "Mo'ljal Ibn sino medical clinikasi ro'parasida"
+msgstr "Mo'ljal Ibn sino medical clinikasi ro'parasida"
+
+#: .\anvarbek_app\templates\components\_contacts.html:53
+msgid "Email"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_contacts.html:60
+msgid "Bizni kuzatib boring"
+msgstr "Bizni kuzatib boring"
+
+#: .\anvarbek_app\templates\components\_contacts.html:102
+msgid "Ismingiz*"
+msgstr "Ismingiz*"
+
+#: .\anvarbek_app\templates\components\_contacts.html:105
+msgid "Email manzil*"
+msgstr "Email manzil*"
+
+#: .\anvarbek_app\templates\components\_contacts.html:108
+msgid "Murojaat mavzusi*"
+msgstr "Murojaat mavzusi*"
+
+#: .\anvarbek_app\templates\components\_contacts.html:111
+msgid "Sizning xabaringiz*"
+msgstr "Sizning xabaringiz*"
+
+#: .\anvarbek_app\templates\components\_contacts.html:113
+msgid "Yuborish"
+msgstr "Yuborish"
+
+#: .\anvarbek_app\templates\components\_footer.html:13
+#: .\anvarbek_app\templates\components\_footer.html:28
+#: .\anvarbek_app\templates\components\_nav.html:27
+msgid "Biz haqimizda"
+msgstr "Biz haqimizda"
+
+#: .\anvarbek_app\templates\components\_footer.html:14
+msgid ""
+"Anvarbek.uz - bu sizning uyingizda qulaylik yaratishga intiluvchi va "
+"shinamlikni ta'minlovchi tashkilot."
+msgstr ""
+"Anvarbek.uz - bu sizning uyingizda qulaylik yaratishga intiluvchi va "
+"shinamlikni ta'minlovchi tashkilot."
+
+#: .\anvarbek_app\templates\components\_footer.html:24
+msgid "Ma'lumot"
+msgstr "Ma'lumot"
+
+#: .\anvarbek_app\templates\components\_footer.html:29
+msgid "Yetkazib berish haqida ma'lumot"
+msgstr "Yetkazib berish haqida ma'lumot"
+
+#: .\anvarbek_app\templates\components\_footer.html:40
+msgid "Bizning ijtimoiy tarmoqlar"
+msgstr "Bizning ijtimoiy tarmoqlar"
+
+#: .\anvarbek_app\templates\components\_nav.html:26
+msgid "Bosh sahifa"
+msgstr "Bosh sahifa"
+
+#: .\anvarbek_app\templates\components\_nav.html:28
+msgid "Aloqa"
+msgstr "Aloqa"
+
+#: .\anvarbek_app\templates\components\_nav.html:29
+#: .\anvarbek_app\templates\components\index.html:44
+msgid "Bizning maxsulotlar"
+msgstr "Bizning maxsulotlar"
+
+#: .\anvarbek_app\templates\components\_nav.html:30
+#: .\anvarbek_app\templates\components\index.html:110
+msgid "Yangi kelgan mebellar"
+msgstr "Yangi kelgan mebellar"
+
+#: .\anvarbek_app\templates\components\_nav.html:90
+msgid "My account"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_nav.html:91
+msgid "Checkout"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\_nav.html:92
+msgid "Sign in"
+msgstr ""
+
+#: .\anvarbek_app\templates\components\index.html:46
+#, fuzzy
+msgid ""
+"Bizning maxsulotlar Farg'ona viloyati Bog'dod tumanida ishlab chiqariladi va "
+"narx bo'yicha eng zo'rlari"
+msgstr ""
+"Bizning maxsulotlar Farg'ona viloyati Bog'dod tumanida ishlab chiqariladi va "
+"narx bo'yicha eng zo'rlari"
+
+#: .\anvarbek_app\templates\components\index.html:47
+msgid "Anvarbek Mebellar uyida"
+msgstr "Anvarbek Mebellar uyida"
+
+#: .\anvarbek_app\templates\components\index.html:93
+msgid "Afsuski hozircha bu turdagi maxsulotimiz yo'q"
+msgstr "Afsuski hozircha bu turdagi maxsulotimiz yo'q"
+
+#: .\anvarbek_app\templates\components\index.html:127
+msgid "Yangi"
+msgstr "Yangi"
+
+#: .\anvarbek_app\templates\components\index.html:139
+#: .\anvarbek_app\templates\components\product_detail.html:15
+msgid "so'm"
+msgstr "so'm"
+
+#: .\anvarbek_app\templates\components\index.html:165
+msgid "Mijozlar biz haqimizda"
+msgstr "Mijozlar biz haqimizda"
+
+#: .\anvarbek_app\templates\components\product_detail.html:15
+msgid "Narxi"
+msgstr "Narxi"
